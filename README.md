@@ -10,7 +10,7 @@ This project requires pytorch-lightning, transformers and datasets (please use r
 pip install -r requirements.txt
 ```
 
-## Run
+## Run python file
 We try 3 different methods: Electra Pretrained model, Electra + MAMC(Multi-head Attention Multichoice Classification) and Electra + DUal Multi-head Co-Attention (DUMA). You can run the corresponding code you interested. 
 
 For example, To get our result for task1-task3 using Electra Pretrained model:
@@ -47,3 +47,7 @@ python Electra_DUMA.py 'data/training_data/Task_1_train.jsonl' 'data/training_da
 python Electra_DUMA.py 'data/training_data/Task_2_train.jsonl' 'data/training_data/Task_1_dev.jsonl'
 ```
 If you are interested in the result of Roberta model, you can run Roberta.py like others. But the performance of Roberta is not so good.
+
+
+## Run google colab files
+We do all experiments in google colab. All files are under Google Colab NLP folders. You can download and open with google colab. You'd better upgrade to Colab Pro+ to run the code quicklly. The resulting screenshots are under Image folder.
