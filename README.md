@@ -5,5 +5,9 @@ This is code for our EECS595_Final_Project: Dual Multi-head Co-Attention For Abs
 Go to https://competitions.codalab.org/competitions/26153#learn_the_details-overview to learn more about SemEval-2021 shared task 4. The data and baseline code are available at https://github.com/boyuanzheng010/SemEval2021-Reading-Comprehension-of-Abstract-Meaning. 
 
 ## Environment Setup
+This project requires pytorch-lightning, transformers and datasets (please use requirements.txt for installation)
+```
+pip install -r requirements.txt
+```
 
 ## Run
