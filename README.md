@@ -12,6 +12,7 @@ pip install -r requirements.txt
 
 ## Run
 We try 3 different methods: Electra Pretrained model, Electra + MAMC(Multi-head Attention Multichoice Classification) and Electra + DUal Multi-head Co-Attention (DUMA). You can run the corresponding code you interested. 
+
 For example, To get our result for task1-task3 using Electra Pretrained model:
 ```
 # subtask1
